@@ -5,15 +5,18 @@ class Car:
 		self.model = model
 		self.color = color
 
+class Car1(Car):
 	def display_details(self):
 		print(self.brand)
 		print(self.price)
 		print(self.model)
 		print(self.color)
-class Car1(Car):
-	pass
 class Car2(Car):
-	pass
+	def display_details(self):
+		print(self.brand)
+		print(self.price)
+		print(self.model)
+		print(self.color)
 
 # Read input
 car1_data = input().split()
