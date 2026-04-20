@@ -4,7 +4,8 @@ class Car:
 		self.price = price
 		self.model = model
 		self.color = color
-
+	def display_details(self):
+		pass
 class Car1(Car):
 	def display_details(self):
 		print(self.brand)
